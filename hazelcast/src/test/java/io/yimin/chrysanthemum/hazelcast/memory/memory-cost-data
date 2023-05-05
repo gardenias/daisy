@@ -1,0 +1,44 @@
+============================
+2018-12-26T05:02:33.280Z
+AVAILABLE_MAP:[HeapCost:106171, OwnedEntryCount:184, OwnedEntryMemoryCost:56134]
+FROZEN_SUBACCOUNT:[HeapCost:103287, OwnedEntryCount:176, OwnedEntryMemoryCost:54926]
+SUBACCOUNT_MAP:[HeapCost:140600, OwnedEntryCount:163, OwnedEntryMemoryCost:67600]
+SUBACCOUNT_ID_MAPPING:[HeapCost:1968738, OwnedEntryCount:155, OwnedEntryMemoryCost:959605]
+============================
+2018-12-26T05:03:09.652Z
+AVAILABLE_MAP:[HeapCost:105547, OwnedEntryCount:169, OwnedEntryMemoryCost:51552]
+FROZEN_SUBACCOUNT:[HeapCost:98926, OwnedEntryCount:146, OwnedEntryMemoryCost:45549]
+SUBACCOUNT_MAP:[HeapCost:128442, OwnedEntryCount:159, OwnedEntryMemoryCost:66057]
+SUBACCOUNT_ID_MAPPING:[HeapCost:2080176, OwnedEntryCount:169, OwnedEntryMemoryCost:1046279]
+============================
+2018-12-26T05:03:29.971Z
+AVAILABLE_MAP:[HeapCost:98230, OwnedEntryCount:157, OwnedEntryMemoryCost:47883]
+FROZEN_SUBACCOUNT:[HeapCost:100161, OwnedEntryCount:162, OwnedEntryMemoryCost:50540]
+SUBACCOUNT_MAP:[HeapCost:132108, OwnedEntryCount:168, OwnedEntryMemoryCost:69778]
+SUBACCOUNT_ID_MAPPING:[HeapCost:1999693, OwnedEntryCount:166, OwnedEntryMemoryCost:1027706]
+============================
+2018-12-26T05:03:39.973Z
+AVAILABLE_MAP:[HeapCost:103414, OwnedEntryCount:163, OwnedEntryMemoryCost:49718]
+FROZEN_SUBACCOUNT:[HeapCost:111094, OwnedEntryCount:185, OwnedEntryMemoryCost:57743]
+SUBACCOUNT_MAP:[HeapCost:141818, OwnedEntryCount:163, OwnedEntryMemoryCost:67879]
+SUBACCOUNT_ID_MAPPING:[HeapCost:2098749, OwnedEntryCount:163, OwnedEntryMemoryCost:1009133]
+============================
+2018-12-26T05:03:49.651Z
+AVAILABLE_MAP:[HeapCost:105547, OwnedEntryCount:169, OwnedEntryMemoryCost:51552]
+FROZEN_SUBACCOUNT:[HeapCost:98926, OwnedEntryCount:146, OwnedEntryMemoryCost:45549]
+SUBACCOUNT_MAP:[HeapCost:128442, OwnedEntryCount:159, OwnedEntryMemoryCost:66057]
+SUBACCOUNT_ID_MAPPING:[HeapCost:2080176, OwnedEntryCount:169, OwnedEntryMemoryCost:1046279]
+============================
+2018-12-26T05:04:00.091Z
+AVAILABLE_MAP:[HeapCost:97035, OwnedEntryCount:167, OwnedEntryMemoryCost:50974]
+FROZEN_SUBACCOUNT:[HeapCost:103318, OwnedEntryCount:166, OwnedEntryMemoryCost:51820]
+SUBACCOUNT_MAP:[HeapCost:141165, OwnedEntryCount:177, OwnedEntryMemoryCost:73731]
+SUBACCOUNT_ID_MAPPING:[HeapCost:1981120, OwnedEntryCount:164, OwnedEntryMemoryCost:1015324]
+
+56134+51552+47883+49718+51552+50974
+
+54926+45549+50540+57743+45549+51820
+
+67600+66057+69778+67879+66057+73731
+
+959605+1046279+1027706+1009133+1046279+1015324

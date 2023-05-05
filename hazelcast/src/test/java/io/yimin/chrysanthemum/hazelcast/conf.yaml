@@ -1,0 +1,89 @@
+init_config:
+instances:
+  - host: localhost
+    port: 10090
+    #   jmx_url: "service:jmx:rmi://172.18.4.40:12345/jndi/rmi://172.18.4.40:12345/jmxrmi"
+    #   java_bin_path: /path/to/java # Optional, should be set if the agent cannot find your java executable
+    java_options: "-Xmx1024m -Xms1024m" # Optional, Java JVM options
+    new_gc_metrics: true
+    tags:
+      hazelcast: member
+      env: performence
+    conf:
+      - include:
+          domain: 'java.lang'
+          tag:
+            type: $1
+            name: $2
+            aspect: jvm
+          bean_regex: 'java.lang:type=(.*?),name:(.*?)'
+          attribute:
+      - include:
+          domain: 'com.hazelcast'
+          tags:
+            name: $1
+            instance: $2
+            type: imap
+          bean_regex: 'com.hazelcast:name=(.*?),instance=(.*?),type=IMap'
+          attribute:
+            localOwnedEntryCount:
+              metric_type: gauge
+            localOwnedEntryMemoryCost:
+              metric_type: gauge
+            localPutOperationCount:
+              metric_type: gauge
+            localGetOperationCount:
+              metric_type: gauge
+            localRemoveOperationCount:
+              metric_type: gauge
+            localTotalPutLatency:
+              metric_type: gauge
+            localTotalGetLatency:
+              metric_type: gauge
+            localTotalRemoveLatency:
+              metric_type: gauge
+            localMaxPutLatency:
+              metric_type: gauge
+            localMaxGetLatency:
+              metric_type: gauge
+            localMaxRemoveLatency:
+              metric_type: gauge
+            localTotal:
+              metric_type: gauge
+            localHeapCost:
+              metric_type: gauge
+      - include:
+          domain: 'com.hazelcast'
+          tags:
+            name: $1
+            instance: $2
+            type: iexecutor
+          bean_regex: 'com.hazelcast:name=(.*?),instance=(.*?),type=IExecutorService'
+            localPendingTaskCount:
+              metric_type: gauge
+            localStartedTaskCount:
+              metric_type: gauge
+            localCompletedTaskCount:
+              metric_type: gauge
+            localCancelledTaskCount:
+              metric_type: gauge
+            localTotalStartLatency:
+              metric_type: gauge
+            localTotalExecutionLatency:
+              metric_type: gauge
+      - include:
+          domain: 'com.hazelcast'
+          tags:
+            name: $1
+            instance: $2
+            type: iqueue
+          bean_regex: 'com.hazelcast:name=(.*?),instance=(.*?),type=IQueue'
+          attribute:
+            localOwnedItemCount:
+              metric_type: gauge
+            localMinAge:
+              metric_type: gauge
+            localMaxAge:
+              metric_type: gauge
+            localAveAge:
+              metric_type: gauge

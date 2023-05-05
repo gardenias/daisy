@@ -1,0 +1,138 @@
+init_config:
+instances:
+  - host: localhost
+    port: 10090
+    java_options: "-Xmx1024m -Xms1024m" # Optional, Java JVM options
+    new_gc_metrics: true
+    tags:
+      hazelcast: member
+      env: performance
+    histogram_aggregates: ["max", "median", "avg", "count"]
+    histogram_percentiles: ["0.95","0.99"]
+    conf:
+      - include:
+          domain: 'java.lang:'
+          tags:
+            name: $1
+            type: garbage_collector
+          bean_regex: 'java.lang:type=GarbageCollector,name(.*?)'
+          attribute:
+            CollectionCount:
+              metric_type: gauge
+            CollectionTime:
+              metric_type: histogram
+      - include:
+          domain: 'com.hazelcast'
+          tags:
+            name: $1
+            instance: $2
+            type: imap
+          bean_regex: 'com.hazelcast:name=(.*?),instance=(.*?),type=IMap'
+          attribute:
+            localOwnedEntryCount:
+              metric_type: gauge
+              alias: imap_local_owned_entry_count
+            localOwnedEntryMemoryCost:
+              metric_type: gauge
+              alias: imap_local_owned_entry_memory_cost
+            localPutOperationCount:
+              metr:ic_type: gauge
+              alias: imap_local_put_operation_count
+            localGetOperationCount:
+              metric_type: gauge
+              alias: imap_local_get_operation_count
+            localRemoveOperationCount:
+              metric_type: gauge
+              alias: imap_local_remove_operation_count
+            localTotalPutLatency:
+              metric_type: rate
+              alias: imap_local_total_put_latency
+            localTotalGetLatency:
+              metric_type: rate
+              alias: imap_local_total_get_latency
+            localTotalRemoveLatency:
+              metric_type: rate
+              alias: imap_local_total_remove_latency
+            localMaxPutLatency:
+              metric_type: rate
+              alias: imap_local_max_put_latency
+            localMaxGetLatency:
+              metric_type: rate
+              alias: imap_local_max_get_latency
+            localMaxRemoveLatency:
+              metric_type: rate
+              alias: imap_local_max_remove_latency
+            localTotal:
+              metric_type: gauge
+              alias: imap_local_total
+            localHeapCost:
+              metric_type: gauge
+              alias: imap_local_heap_cost
+      - include:
+          domain: 'com.hazelcast'
+          tags:
+            name: $1
+            instance: $2
+            type: iexecutor
+          bean_regex: 'com.hazelcast:name=(.*?),instance=(.*?),type=IExecutorService'
+          attribute:
+            localPendingTaskCount:
+              metric_type: gauge
+              alias: iexecutor_local_pending_task_count
+            localStartedTaskCount:
+              metric_type: gauge
+              alias: iexecutor_local_started_task_count
+            localCompletedTaskCount:
+              metric_type: gauge
+              alias: iexecutor_local_completed_task_count
+            localCancelledTaskCount:
+              metric_type: gauge
+              alias: iexecutor_local_cancelled_task_count
+            localTotalStartLatency:
+              metric_type: rate
+              alias: iexecutor_local_total_start_latency
+            localTotalExecutionLatency:
+              metric_type: rate
+              alias: iexecutor_local_total_execution_latency
+      - include:
+          domain: 'com.hazelcast'
+          tags:
+            name: $1
+            instance: $2
+            type: iqueue
+          bean_regex: 'com.hazelcast:name=(.*?),instance=(.*?),type=IQueue'
+          attribute:
+            localOwnedItemCount:
+              metric_type: gauge
+              alias: iqueue_local_owned_item_count
+            localMaxAge:
+              metric_type: histogram
+              alias: iqueue_local_max_age
+            localAvgAge:
+              metric_type: histogram
+              alias: iqueue_local_avg_age
+      - include:
+          domain: 'com.hazelcast'
+          tags:
+            name: $1
+            type: operation
+          bean_regex: 'com.hazelcast:instance=(.*?),name=(.*?),type=HazelcastInstance.OperationService'
+          attribte:
+            responseQueueSize:
+              metric_type: gauge
+              alias: operation_response_queue_size
+            operationExecutorQueueSize:
+              metric_type: gauge
+              alias: operation_operation_executor_queue_size
+            runningOperationsCount:
+              metric_type: gauge
+              alias: operation_running_operations_count
+            remoteOperationCount:
+              metric_type: gauge
+              alias: operation_remote_operation_count
+            executedOperationCount:
+              metric_type: gauge
+              alias: operation_executed_operation_count
+            operationThreadCount:
+              metric_type: gauge
+              alias: operation_operation_thread_count

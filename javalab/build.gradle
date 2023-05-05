@@ -1,0 +1,23 @@
+plugins {
+	id 'java'
+	// id 'application'
+}
+
+dependencies {
+	compile project(':groovylab')
+
+	compile('org.apache.pulsar:pulsar-client:2.4.0')
+	compile group: 'org.apache.pulsar', name: 'pulsar-functions-api', version: '2.4.0'
+	compile('org.apache.commons:commons-lang3:3.8.1')
+
+	testCompile('org.junit.jupiter:junit-jupiter-api:5.3.2')
+	testCompile('org.junit.jupiter:junit-jupiter-params:5.3.2')
+	testCompile('org.junit.jupiter:junit-jupiter-engine:5.3.2')
+}
+
+test {
+	useJUnitPlatform()
+	testLogging {
+		events "passed", "skipped", "failed"
+	}
+}

@@ -1,0 +1,326 @@
+
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name=_hzInstance_1_dev,type=HazelcastInstance - Attribute name: running  - Attribute type: boolean
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name=_hzInstance_1_dev,type=HazelcastInstance - Attribute name: clusterTime  - Attribute type: long
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name=_hzInstance_1_dev,type=HazelcastInstance - Attribute name: groupName  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name=_hzInstance_1_dev,type=HazelcastInstance - Attribute name: port  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name=_hzInstance_1_dev,type=HazelcastInstance - Attribute name: build  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name=_hzInstance_1_dev,type=HazelcastInstance - Attribute name: memberCount  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name=_hzInstance_1_dev,type=HazelcastInstance - Attribute name: name  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name=_hzInstance_1_dev,type=HazelcastInstance - Attribute name: configSource  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name=_hzInstance_1_dev,type=HazelcastInstance - Attribute name: version  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name=_hzInstance_1_dev,type=HazelcastInstance - Attribute name: config  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:scheduled",type=HazelcastInstance.ManagedExecutorService - Attribute name: queueSize  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:scheduled",type=HazelcastInstance.ManagedExecutorService - Attribute name: isTerminated  - Attribute type: boolean
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:scheduled",type=HazelcastInstance.ManagedExecutorService - Attribute name: poolSize  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:scheduled",type=HazelcastInstance.ManagedExecutorService - Attribute name: name  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:scheduled",type=HazelcastInstance.ManagedExecutorService - Attribute name: completedTaskCount  - Attribute type: long
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:scheduled",type=HazelcastInstance.ManagedExecutorService - Attribute name: maximumPoolSize  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:scheduled",type=HazelcastInstance.ManagedExecutorService - Attribute name: remainingQueueCapacity  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:scheduled",type=HazelcastInstance.ManagedExecutorService - Attribute name: isShutdown  - Attribute type: boolean
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name=_hzInstance_1_dev,type=HazelcastInstance.PartitionServiceMBean - Attribute name: isLocalMemberSafe  - Attribute type: boolean
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name=_hzInstance_1_dev,type=HazelcastInstance.PartitionServiceMBean - Attribute name: partitionCount  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name=_hzInstance_1_dev,type=HazelcastInstance.PartitionServiceMBean - Attribute name: isClusterSafe  - Attribute type: boolean
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name=_hzInstance_1_dev,type=HazelcastInstance.PartitionServiceMBean - Attribute name: activePartitionCount  - Attribute type: int
+Bean name: JMImplementation:type=MBeanServerDelegate - Attribute name: MBeanServerId  - Attribute type: java.lang.String
+Bean name: JMImplementation:type=MBeanServerDelegate - Attribute name: SpecificationName  - Attribute type: java.lang.String
+Bean name: JMImplementation:type=MBeanServerDelegate - Attribute name: SpecificationVersion  - Attribute type: java.lang.String
+Bean name: JMImplementation:type=MBeanServerDelegate - Attribute name: SpecificationVendor  - Attribute type: java.lang.String
+Bean name: JMImplementation:type=MBeanServerDelegate - Attribute name: ImplementationName  - Attribute type: java.lang.String
+Bean name: JMImplementation:type=MBeanServerDelegate - Attribute name: ImplementationVersion  - Attribute type: java.lang.String
+Bean name: JMImplementation:type=MBeanServerDelegate - Attribute name: ImplementationVendor  - Attribute type: java.lang.String
+Bean name: java.lang:type=Runtime - Attribute name: StartTime  - Attribute type: long
+Bean name: java.lang:type=Runtime - Attribute name: SpecName  - Attribute type: java.lang.String
+Bean name: java.lang:type=Runtime - Attribute name: SpecVendor  - Attribute type: java.lang.String
+Bean name: java.lang:type=Runtime - Attribute name: SpecVersion  - Attribute type: java.lang.String
+Bean name: java.lang:type=Runtime - Attribute name: ManagementSpecVersion  - Attribute type: java.lang.String
+Bean name: java.lang:type=Runtime - Attribute name: SystemProperties  - Attribute type: javax.management.openmbean.TabularData
+Bean name: java.lang:type=Runtime - Attribute name: VmName  - Attribute type: java.lang.String
+Bean name: java.lang:type=Runtime - Attribute name: VmVendor  - Attribute type: java.lang.String
+Bean name: java.lang:type=Runtime - Attribute name: VmVersion  - Attribute type: java.lang.String
+Bean name: java.lang:type=Runtime - Attribute name: LibraryPath  - Attribute type: java.lang.String
+Bean name: java.lang:type=Runtime - Attribute name: BootClassPath  - Attribute type: java.lang.String
+Bean name: java.lang:type=Runtime - Attribute name: Uptime  - Attribute type: long
+Bean name: java.lang:type=Runtime - Attribute name: BootClassPathSupported  - Attribute type: boolean
+Bean name: java.lang:type=Runtime - Attribute name: Name  - Attribute type: java.lang.String
+Bean name: java.lang:type=Runtime - Attribute name: ClassPath  - Attribute type: java.lang.String
+Bean name: java.lang:type=Threading - Attribute name: ThreadAllocatedMemoryEnabled  - Attribute type: boolean
+Bean name: java.lang:type=Threading - Attribute name: ThreadAllocatedMemorySupported  - Attribute type: boolean
+Bean name: java.lang:type=Threading - Attribute name: ThreadCount  - Attribute type: int
+Bean name: java.lang:type=Threading - Attribute name: TotalStartedThreadCount  - Attribute type: long
+Bean name: java.lang:type=Threading - Attribute name: CurrentThreadCpuTime  - Attribute type: long
+Bean name: java.lang:type=Threading - Attribute name: CurrentThreadUserTime  - Attribute type: long
+Bean name: java.lang:type=Threading - Attribute name: ThreadCpuTimeSupported  - Attribute type: boolean
+Bean name: java.lang:type=Threading - Attribute name: ThreadCpuTimeEnabled  - Attribute type: boolean
+Bean name: java.lang:type=Threading - Attribute name: ThreadContentionMonitoringEnabled  - Attribute type: boolean
+Bean name: java.lang:type=Threading - Attribute name: PeakThreadCount  - Attribute type: int
+Bean name: java.lang:type=Threading - Attribute name: DaemonThreadCount  - Attribute type: int
+Bean name: java.lang:type=Threading - Attribute name: ThreadContentionMonitoringSupported  - Attribute type: boolean
+Bean name: java.lang:type=Threading - Attribute name: CurrentThreadCpuTimeSupported  - Attribute type: boolean
+Bean name: java.lang:type=Threading - Attribute name: ObjectMonitorUsageSupported  - Attribute type: boolean
+Bean name: java.lang:type=Threading - Attribute name: SynchronizerUsageSupported  - Attribute type: boolean
+Bean name: java.lang:type=OperatingSystem - Attribute name: OpenFileDescriptorCount  - Attribute type: long
+Bean name: java.lang:type=OperatingSystem - Attribute name: MaxFileDescriptorCount  - Attribute type: long
+Bean name: java.lang:type=OperatingSystem - Attribute name: CommittedVirtualMemorySize  - Attribute type: long
+Bean name: java.lang:type=OperatingSystem - Attribute name: TotalSwapSpaceSize  - Attribute type: long
+Bean name: java.lang:type=OperatingSystem - Attribute name: FreeSwapSpaceSize  - Attribute type: long
+Bean name: java.lang:type=OperatingSystem - Attribute name: ProcessCpuTime  - Attribute type: long
+Bean name: java.lang:type=OperatingSystem - Attribute name: FreePhysicalMemorySize  - Attribute type: long
+Bean name: java.lang:type=OperatingSystem - Attribute name: TotalPhysicalMemorySize  - Attribute type: long
+Bean name: java.lang:type=OperatingSystem - Attribute name: SystemCpuLoad  - Attribute type: double
+Bean name: java.lang:type=OperatingSystem - Attribute name: ProcessCpuLoad  - Attribute type: double
+Bean name: java.lang:type=OperatingSystem - Attribute name: Arch  - Attribute type: java.lang.String
+Bean name: java.lang:type=OperatingSystem - Attribute name: Version  - Attribute type: java.lang.String
+Bean name: java.lang:type=OperatingSystem - Attribute name: SystemLoadAverage  - Attribute type: double
+Bean name: java.lang:type=OperatingSystem - Attribute name: AvailableProcessors  - Attribute type: int
+Bean name: java.lang:type=OperatingSystem - Attribute name: Name  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name=proxyService_hzInstance_1_dev,type=HazelcastInstance.ProxyService - Attribute name: proxyCount  - Attribute type: int
+Bean name: java.nio:type=BufferPool,name=direct - Attribute name: TotalCapacity  - Attribute type: long
+Bean name: java.nio:type=BufferPool,name=direct - Attribute name: MemoryUsed  - Attribute type: long
+Bean name: java.nio:type=BufferPool,name=direct - Attribute name: Count  - Attribute type: long
+Bean name: java.nio:type=BufferPool,name=direct - Attribute name: Name  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name=_hzInstance_1_dev,type=HazelcastInstance.ConnectionManager - Attribute name: connectionCount  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name=_hzInstance_1_dev,type=HazelcastInstance.ConnectionManager - Attribute name: activeConnectionCount  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name=_hzInstance_1_dev,type=HazelcastInstance.ConnectionManager - Attribute name: clientConnectionCount  - Attribute type: int
+Bean name: java.lang:type=Compilation - Attribute name: TotalCompilationTime  - Attribute type: long
+Bean name: java.lang:type=Compilation - Attribute name: CompilationTimeMonitoringSupported  - Attribute type: boolean
+Bean name: java.lang:type=Compilation - Attribute name: Name  - Attribute type: java.lang.String
+Bean name: com.hazelcast:name=small,instance=_hzInstance_1_dev,type=IMap - Attribute name: localEventOperationCount  - Attribute type: long
+Bean name: com.hazelcast:name=small,instance=_hzInstance_1_dev,type=IMap - Attribute name: localBackupEntryCount  - Attribute type: long
+Bean name: com.hazelcast:name=small,instance=_hzInstance_1_dev,type=IMap - Attribute name: localLastAccessTime  - Attribute type: long
+Bean name: com.hazelcast:name=small,instance=_hzInstance_1_dev,type=IMap - Attribute name: localPutOperationCount  - Attribute type: long
+Bean name: com.hazelcast:name=small,instance=_hzInstance_1_dev,type=IMap - Attribute name: localOwnedEntryMemoryCost  - Attribute type: long
+Bean name: com.hazelcast:name=small,instance=_hzInstance_1_dev,type=IMap - Attribute name: localDirtyEntryCount  - Attribute type: long
+Bean name: com.hazelcast:name=small,instance=_hzInstance_1_dev,type=IMap - Attribute name: localTotal  - Attribute type: long
+Bean name: com.hazelcast:name=small,instance=_hzInstance_1_dev,type=IMap - Attribute name: localHeapCost  - Attribute type: long
+Bean name: com.hazelcast:name=small,instance=_hzInstance_1_dev,type=IMap - Attribute name: localBackupEntryMemoryCost  - Attribute type: long
+Bean name: com.hazelcast:name=small,instance=_hzInstance_1_dev,type=IMap - Attribute name: localTotalPutLatency  - Attribute type: long
+Bean name: com.hazelcast:name=small,instance=_hzInstance_1_dev,type=IMap - Attribute name: localGetOperationCount  - Attribute type: long
+Bean name: com.hazelcast:name=small,instance=_hzInstance_1_dev,type=IMap - Attribute name: localBackupCount  - Attribute type: int
+Bean name: com.hazelcast:name=small,instance=_hzInstance_1_dev,type=IMap - Attribute name: localTotalGetLatency  - Attribute type: long
+Bean name: com.hazelcast:name=small,instance=_hzInstance_1_dev,type=IMap - Attribute name: localTotalRemoveLatency  - Attribute type: long
+Bean name: com.hazelcast:name=small,instance=_hzInstance_1_dev,type=IMap - Attribute name: localHits  - Attribute type: long
+Bean name: com.hazelcast:name=small,instance=_hzInstance_1_dev,type=IMap - Attribute name: localCreationTime  - Attribute type: long
+Bean name: com.hazelcast:name=small,instance=_hzInstance_1_dev,type=IMap - Attribute name: localOtherOperationCount  - Attribute type: long
+Bean name: com.hazelcast:name=small,instance=_hzInstance_1_dev,type=IMap - Attribute name: size  - Attribute type: int
+Bean name: com.hazelcast:name=small,instance=_hzInstance_1_dev,type=IMap - Attribute name: localLastUpdateTime  - Attribute type: long
+Bean name: com.hazelcast:name=small,instance=_hzInstance_1_dev,type=IMap - Attribute name: localMaxGetLatency  - Attribute type: long
+Bean name: com.hazelcast:name=small,instance=_hzInstance_1_dev,type=IMap - Attribute name: localOwnedEntryCount  - Attribute type: long
+Bean name: com.hazelcast:name=small,instance=_hzInstance_1_dev,type=IMap - Attribute name: localRemoveOperationCount  - Attribute type: long
+Bean name: com.hazelcast:name=small,instance=_hzInstance_1_dev,type=IMap - Attribute name: localMaxPutLatency  - Attribute type: long
+Bean name: com.hazelcast:name=small,instance=_hzInstance_1_dev,type=IMap - Attribute name: name  - Attribute type: java.lang.String
+Bean name: com.hazelcast:name=small,instance=_hzInstance_1_dev,type=IMap - Attribute name: localMaxRemoveLatency  - Attribute type: long
+Bean name: com.hazelcast:name=small,instance=_hzInstance_1_dev,type=IMap - Attribute name: localLockedEntryCount  - Attribute type: long
+Bean name: com.hazelcast:name=small,instance=_hzInstance_1_dev,type=IMap - Attribute name: config  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:async",type=HazelcastInstance.ManagedExecutorService - Attribute name: queueSize  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:async",type=HazelcastInstance.ManagedExecutorService - Attribute name: isTerminated  - Attribute type: boolean
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:async",type=HazelcastInstance.ManagedExecutorService - Attribute name: poolSize  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:async",type=HazelcastInstance.ManagedExecutorService - Attribute name: name  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:async",type=HazelcastInstance.ManagedExecutorService - Attribute name: completedTaskCount  - Attribute type: long
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:async",type=HazelcastInstance.ManagedExecutorService - Attribute name: maximumPoolSize  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:async",type=HazelcastInstance.ManagedExecutorService - Attribute name: remainingQueueCapacity  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:async",type=HazelcastInstance.ManagedExecutorService - Attribute name: isShutdown  - Attribute type: boolean
+Bean name: java.lang:type=MemoryManager,name=CodeCacheManager - Attribute name: Valid  - Attribute type: boolean
+Bean name: java.lang:type=MemoryManager,name=CodeCacheManager - Attribute name: Name  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name=_hzInstance_1_dev,type=HazelcastInstance.EventService - Attribute name: eventQueueSize  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name=_hzInstance_1_dev,type=HazelcastInstance.EventService - Attribute name: eventThreadCount  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name=_hzInstance_1_dev,type=HazelcastInstance.EventService - Attribute name: eventQueueCapacity  - Attribute type: int
+Bean name: java.lang:type=ClassLoading - Attribute name: TotalLoadedClassCount  - Attribute type: long
+Bean name: java.lang:type=ClassLoading - Attribute name: LoadedClassCount  - Attribute type: int
+Bean name: java.lang:type=ClassLoading - Attribute name: UnloadedClassCount  - Attribute type: long
+Bean name: java.lang:type=ClassLoading - Attribute name: Verbose  - Attribute type: boolean
+Bean name: java.lang:type=MemoryManager,name=Metaspace Manager - Attribute name: Valid  - Attribute type: boolean
+Bean name: java.lang:type=MemoryManager,name=Metaspace Manager - Attribute name: Name  - Attribute type: java.lang.String
+Bean name: java.lang:type=GarbageCollector,name=PS MarkSweep - Attribute name: LastGcInfo  - Attribute type: javax.management.openmbean.CompositeData
+Bean name: java.lang:type=GarbageCollector,name=PS MarkSweep - Attribute name: CollectionCount  - Attribute type: long
+Bean name: java.lang:type=GarbageCollector,name=PS MarkSweep - Attribute name: CollectionTime  - Attribute type: long
+Bean name: java.lang:type=GarbageCollector,name=PS MarkSweep - Attribute name: Valid  - Attribute type: boolean
+Bean name: java.lang:type=GarbageCollector,name=PS MarkSweep - Attribute name: Name  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:offloadable",type=HazelcastInstance.ManagedExecutorService - Attribute name: queueSize  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:offloadable",type=HazelcastInstance.ManagedExecutorService - Attribute name: isTerminated  - Attribute type: boolean
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:offloadable",type=HazelcastInstance.ManagedExecutorService - Attribute name: poolSize  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:offloadable",type=HazelcastInstance.ManagedExecutorService - Attribute name: name  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:offloadable",type=HazelcastInstance.ManagedExecutorService - Attribute name: completedTaskCount  - Attribute type: long
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:offloadable",type=HazelcastInstance.ManagedExecutorService - Attribute name: maximumPoolSize  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:offloadable",type=HazelcastInstance.ManagedExecutorService - Attribute name: remainingQueueCapacity  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:offloadable",type=HazelcastInstance.ManagedExecutorService - Attribute name: isShutdown  - Attribute type: boolean
+Bean name: com.hazelcast:name=transaction_test,instance=_hzInstance_1_dev,type=IMap - Attribute name: localEventOperationCount  - Attribute type: long
+Bean name: com.hazelcast:name=transaction_test,instance=_hzInstance_1_dev,type=IMap - Attribute name: localBackupEntryCount  - Attribute type: long
+Bean name: com.hazelcast:name=transaction_test,instance=_hzInstance_1_dev,type=IMap - Attribute name: localLastAccessTime  - Attribute type: long
+Bean name: com.hazelcast:name=transaction_test,instance=_hzInstance_1_dev,type=IMap - Attribute name: localPutOperationCount  - Attribute type: long
+Bean name: com.hazelcast:name=transaction_test,instance=_hzInstance_1_dev,type=IMap - Attribute name: localOwnedEntryMemoryCost  - Attribute type: long
+Bean name: com.hazelcast:name=transaction_test,instance=_hzInstance_1_dev,type=IMap - Attribute name: localDirtyEntryCount  - Attribute type: long
+Bean name: com.hazelcast:name=transaction_test,instance=_hzInstance_1_dev,type=IMap - Attribute name: localTotal  - Attribute type: long
+Bean name: com.hazelcast:name=transaction_test,instance=_hzInstance_1_dev,type=IMap - Attribute name: localHeapCost  - Attribute type: long
+Bean name: com.hazelcast:name=transaction_test,instance=_hzInstance_1_dev,type=IMap - Attribute name: localBackupEntryMemoryCost  - Attribute type: long
+Bean name: com.hazelcast:name=transaction_test,instance=_hzInstance_1_dev,type=IMap - Attribute name: localTotalPutLatency  - Attribute type: long
+Bean name: com.hazelcast:name=transaction_test,instance=_hzInstance_1_dev,type=IMap - Attribute name: localGetOperationCount  - Attribute type: long
+Bean name: com.hazelcast:name=transaction_test,instance=_hzInstance_1_dev,type=IMap - Attribute name: localBackupCount  - Attribute type: int
+Bean name: com.hazelcast:name=transaction_test,instance=_hzInstance_1_dev,type=IMap - Attribute name: localTotalGetLatency  - Attribute type: long
+Bean name: com.hazelcast:name=transaction_test,instance=_hzInstance_1_dev,type=IMap - Attribute name: localTotalRemoveLatency  - Attribute type: long
+Bean name: com.hazelcast:name=transaction_test,instance=_hzInstance_1_dev,type=IMap - Attribute name: localHits  - Attribute type: long
+Bean name: com.hazelcast:name=transaction_test,instance=_hzInstance_1_dev,type=IMap - Attribute name: localCreationTime  - Attribute type: long
+Bean name: com.hazelcast:name=transaction_test,instance=_hzInstance_1_dev,type=IMap - Attribute name: localOtherOperationCount  - Attribute type: long
+Bean name: com.hazelcast:name=transaction_test,instance=_hzInstance_1_dev,type=IMap - Attribute name: size  - Attribute type: int
+Bean name: com.hazelcast:name=transaction_test,instance=_hzInstance_1_dev,type=IMap - Attribute name: localLastUpdateTime  - Attribute type: long
+Bean name: com.hazelcast:name=transaction_test,instance=_hzInstance_1_dev,type=IMap - Attribute name: localMaxGetLatency  - Attribute type: long
+Bean name: com.hazelcast:name=transaction_test,instance=_hzInstance_1_dev,type=IMap - Attribute name: localOwnedEntryCount  - Attribute type: long
+Bean name: com.hazelcast:name=transaction_test,instance=_hzInstance_1_dev,type=IMap - Attribute name: localRemoveOperationCount  - Attribute type: long
+Bean name: com.hazelcast:name=transaction_test,instance=_hzInstance_1_dev,type=IMap - Attribute name: localMaxPutLatency  - Attribute type: long
+Bean name: com.hazelcast:name=transaction_test,instance=_hzInstance_1_dev,type=IMap - Attribute name: name  - Attribute type: java.lang.String
+Bean name: com.hazelcast:name=transaction_test,instance=_hzInstance_1_dev,type=IMap - Attribute name: localMaxRemoveLatency  - Attribute type: long
+Bean name: com.hazelcast:name=transaction_test,instance=_hzInstance_1_dev,type=IMap - Attribute name: localLockedEntryCount  - Attribute type: long
+Bean name: com.hazelcast:name=transaction_test,instance=_hzInstance_1_dev,type=IMap - Attribute name: config  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="node[172.18.1.61]:5701",type=HazelcastInstance.LicenseInfo - Attribute name: expiryDate  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="node[172.18.1.61]:5701",type=HazelcastInstance.LicenseInfo - Attribute name: keyHash  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="node[172.18.1.61]:5701",type=HazelcastInstance.LicenseInfo - Attribute name: maxNodeCountAllowed  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="node[172.18.1.61]:5701",type=HazelcastInstance.LicenseInfo - Attribute name: companyName  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="node[172.18.1.61]:5701",type=HazelcastInstance.LicenseInfo - Attribute name: type  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="node[172.18.1.61]:5701",type=HazelcastInstance.LicenseInfo - Attribute name: typeCode  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="node[172.18.1.61]:5701",type=HazelcastInstance.LicenseInfo - Attribute name: ownerEmail  - Attribute type: java.lang.String
+Bean name: com.hazelcast:name=default,instance=_hzInstance_1_dev,type=IExecutorService - Attribute name: localCancelledTaskCount  - Attribute type: long
+Bean name: com.hazelcast:name=default,instance=_hzInstance_1_dev,type=IExecutorService - Attribute name: localTotalStartLatency  - Attribute type: long
+Bean name: com.hazelcast:name=default,instance=_hzInstance_1_dev,type=IExecutorService - Attribute name: localCompletedTaskCount  - Attribute type: long
+Bean name: com.hazelcast:name=default,instance=_hzInstance_1_dev,type=IExecutorService - Attribute name: localTotalExecutionLatency  - Attribute type: long
+Bean name: com.hazelcast:name=default,instance=_hzInstance_1_dev,type=IExecutorService - Attribute name: name  - Attribute type: java.lang.String
+Bean name: com.hazelcast:name=default,instance=_hzInstance_1_dev,type=IExecutorService - Attribute name: localPendingTaskCount  - Attribute type: long
+Bean name: com.hazelcast:name=default,instance=_hzInstance_1_dev,type=IExecutorService - Attribute name: localStartedTaskCount  - Attribute type: long
+Bean name: java.lang:type=GarbageCollector,name=PS Scavenge - Attribute name: LastGcInfo  - Attribute type: javax.management.openmbean.CompositeData
+Bean name: java.lang:type=GarbageCollector,name=PS Scavenge - Attribute name: CollectionCount  - Attribute type: long
+Bean name: java.lang:type=GarbageCollector,name=PS Scavenge - Attribute name: CollectionTime  - Attribute type: long
+Bean name: java.lang:type=GarbageCollector,name=PS Scavenge - Attribute name: Valid  - Attribute type: boolean
+Bean name: java.lang:type=GarbageCollector,name=PS Scavenge - Attribute name: Name  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name=_hzInstance_1_dev,type=HazelcastInstance.ClientEngine - Attribute name: clientEndpointCount  - Attribute type: int
+Bean name: java.lang:type=Memory - Attribute name: ObjectPendingFinalizationCount  - Attribute type: int
+Bean name: java.lang:type=Memory - Attribute name: HeapMemoryUsage  - Attribute type: javax.management.openmbean.CompositeData
+Bean name: java.lang:type=Memory - Attribute name: NonHeapMemoryUsage  - Attribute type: javax.management.openmbean.CompositeData
+Bean name: java.lang:type=Memory - Attribute name: Verbose  - Attribute type: boolean
+Bean name: java.nio:type=BufferPool,name=mapped - Attribute name: TotalCapacity  - Attribute type: long
+Bean name: java.nio:type=BufferPool,name=mapped - Attribute name: MemoryUsed  - Attribute type: long
+Bean name: java.nio:type=BufferPool,name=mapped - Attribute name: Count  - Attribute type: long
+Bean name: java.nio:type=BufferPool,name=mapped - Attribute name: Name  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="node[172.18.1.61]:5701",type=HazelcastInstance.Node - Attribute name: masterAddress  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="node[172.18.1.61]:5701",type=HazelcastInstance.Node - Attribute name: address  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name=operationService_hzInstance_1_dev,type=HazelcastInstance.OperationService - Attribute name: runningOperationsCount  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name=operationService_hzInstance_1_dev,type=HazelcastInstance.OperationService - Attribute name: operationThreadCount  - Attribute type: long
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name=operationService_hzInstance_1_dev,type=HazelcastInstance.OperationService - Attribute name: remoteOperationCount  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name=operationService_hzInstance_1_dev,type=HazelcastInstance.OperationService - Attribute name: responseQueueSize  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name=operationService_hzInstance_1_dev,type=HazelcastInstance.OperationService - Attribute name: executedOperationCount  - Attribute type: long
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:system",type=HazelcastInstance.ManagedExecutorService - Attribute name: queueSize  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:system",type=HazelcastInstance.ManagedExecutorService - Attribute name: isTerminated  - Attribute type: boolean
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:system",type=HazelcastInstance.ManagedExecutorService - Attribute name: poolSize  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:system",type=HazelcastInstance.ManagedExecutorService - Attribute name: name  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:system",type=HazelcastInstance.ManagedExecutorService - Attribute name: completedTaskCount  - Attribute type: long
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:system",type=HazelcastInstance.ManagedExecutorService - Attribute name: maximumPoolSize  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:system",type=HazelcastInstance.ManagedExecutorService - Attribute name: remainingQueueCapacity  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:system",type=HazelcastInstance.ManagedExecutorService - Attribute name: isShutdown  - Attribute type: boolean
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:client",type=HazelcastInstance.ManagedExecutorService - Attribute name: queueSize  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:client",type=HazelcastInstance.ManagedExecutorService - Attribute name: isTerminated  - Attribute type: boolean
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:client",type=HazelcastInstance.ManagedExecutorService - Attribute name: poolSize  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:client",type=HazelcastInstance.ManagedExecutorService - Attribute name: name  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:client",type=HazelcastInstance.ManagedExecutorService - Attribute name: completedTaskCount  - Attribute type: long
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:client",type=HazelcastInstance.ManagedExecutorService - Attribute name: maximumPoolSize  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:client",type=HazelcastInstance.ManagedExecutorService - Attribute name: remainingQueueCapacity  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:client",type=HazelcastInstance.ManagedExecutorService - Attribute name: isShutdown  - Attribute type: boolean
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:io",type=HazelcastInstance.ManagedExecutorService - Attribute name: queueSize  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:io",type=HazelcastInstance.ManagedExecutorService - Attribute name: isTerminated  - Attribute type: boolean
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:io",type=HazelcastInstance.ManagedExecutorService - Attribute name: poolSize  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:io",type=HazelcastInstance.ManagedExecutorService - Attribute name: name  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:io",type=HazelcastInstance.ManagedExecutorService - Attribute name: completedTaskCount  - Attribute type: long
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:io",type=HazelcastInstance.ManagedExecutorService - Attribute name: maximumPoolSize  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:io",type=HazelcastInstance.ManagedExecutorService - Attribute name: remainingQueueCapacity  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:io",type=HazelcastInstance.ManagedExecutorService - Attribute name: isShutdown  - Attribute type: boolean
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:query",type=HazelcastInstance.ManagedExecutorService - Attribute name: queueSize  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:query",type=HazelcastInstance.ManagedExecutorService - Attribute name: isTerminated  - Attribute type: boolean
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:query",type=HazelcastInstance.ManagedExecutorService - Attribute name: poolSize  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:query",type=HazelcastInstance.ManagedExecutorService - Attribute name: name  - Attribute type: java.lang.String
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:query",type=HazelcastInstance.ManagedExecutorService - Attribute name: completedTaskCount  - Attribute type: long
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:query",type=HazelcastInstance.ManagedExecutorService - Attribute name: maximumPoolSize  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:query",type=HazelcastInstance.ManagedExecutorService - Attribute name: remainingQueueCapacity  - Attribute type: int
+Bean name: com.hazelcast:instance=_hzInstance_1_dev,name="hz:query",type=HazelcastInstance.ManagedExecutorService - Attribute name: isShutdown  - Attribute type: boolean
+
+
+
+Bean name: java.lang:type=MemoryPool,name=Code Cache - Attribute name: Usage  - Attribute type: javax.management.openmbean.CompositeData
+Bean name: java.lang:type=MemoryPool,name=Code Cache - Attribute name: PeakUsage  - Attribute type: javax.management.openmbean.CompositeData
+Bean name: java.lang:type=MemoryPool,name=Code Cache - Attribute name: UsageThreshold  - Attribute type: long
+Bean name: java.lang:type=MemoryPool,name=Code Cache - Attribute name: UsageThresholdExceeded  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=Code Cache - Attribute name: UsageThresholdCount  - Attribute type: long
+Bean name: java.lang:type=MemoryPool,name=Code Cache - Attribute name: UsageThresholdSupported  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=Code Cache - Attribute name: CollectionUsageThreshold  - Attribute type: long
+Bean name: java.lang:type=MemoryPool,name=Code Cache - Attribute name: CollectionUsageThresholdExceeded  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=Code Cache - Attribute name: CollectionUsageThresholdCount  - Attribute type: long
+Bean name: java.lang:type=MemoryPool,name=Code Cache - Attribute name: CollectionUsage  - Attribute type: javax.management.openmbean.CompositeData
+Bean name: java.lang:type=MemoryPool,name=Code Cache - Attribute name: CollectionUsageThresholdSupported  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=Code Cache - Attribute name: Valid  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=Code Cache - Attribute name: Name  - Attribute type: java.lang.String
+Bean name: java.lang:type=MemoryPool,name=Code Cache - Attribute name: Type  - Attribute type: java.lang.String
+Bean name: java.lang:type=MemoryPool,name=Metaspace - Attribute name: Usage  - Attribute type: javax.management.openmbean.CompositeData
+Bean name: java.lang:type=MemoryPool,name=Metaspace - Attribute name: PeakUsage  - Attribute type: javax.management.openmbean.CompositeData
+Bean name: java.lang:type=MemoryPool,name=Metaspace - Attribute name: UsageThreshold  - Attribute type: long
+Bean name: java.lang:type=MemoryPool,name=Metaspace - Attribute name: UsageThresholdExceeded  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=Metaspace - Attribute name: UsageThresholdCount  - Attribute type: long
+Bean name: java.lang:type=MemoryPool,name=Metaspace - Attribute name: UsageThresholdSupported  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=Metaspace - Attribute name: CollectionUsageThreshold  - Attribute type: long
+Bean name: java.lang:type=MemoryPool,name=Metaspace - Attribute name: CollectionUsageThresholdExceeded  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=Metaspace - Attribute name: CollectionUsageThresholdCount  - Attribute type: long
+Bean name: java.lang:type=MemoryPool,name=Metaspace - Attribute name: CollectionUsage  - Attribute type: javax.management.openmbean.CompositeData
+Bean name: java.lang:type=MemoryPool,name=Metaspace - Attribute name: CollectionUsageThresholdSupported  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=Metaspace - Attribute name: Valid  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=Metaspace - Attribute name: Name  - Attribute type: java.lang.String
+Bean name: java.lang:type=MemoryPool,name=Metaspace - Attribute name: Type  - Attribute type: java.lang.String
+Bean name: java.lang:type=MemoryPool,name=PS Old Gen - Attribute name: Usage  - Attribute type: javax.management.openmbean.CompositeData
+Bean name: java.lang:type=MemoryPool,name=PS Old Gen - Attribute name: PeakUsage  - Attribute type: javax.management.openmbean.CompositeData
+Bean name: java.lang:type=MemoryPool,name=PS Old Gen - Attribute name: UsageThreshold  - Attribute type: long
+Bean name: java.lang:type=MemoryPool,name=PS Old Gen - Attribute name: UsageThresholdExceeded  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=PS Old Gen - Attribute name: UsageThresholdCount  - Attribute type: long
+Bean name: java.lang:type=MemoryPool,name=PS Old Gen - Attribute name: UsageThresholdSupported  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=PS Old Gen - Attribute name: CollectionUsageThreshold  - Attribute type: long
+Bean name: java.lang:type=MemoryPool,name=PS Old Gen - Attribute name: CollectionUsageThresholdExceeded  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=PS Old Gen - Attribute name: CollectionUsageThresholdCount  - Attribute type: long
+Bean name: java.lang:type=MemoryPool,name=PS Old Gen - Attribute name: CollectionUsage  - Attribute type: javax.management.openmbean.CompositeData
+Bean name: java.lang:type=MemoryPool,name=PS Old Gen - Attribute name: CollectionUsageThresholdSupported  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=PS Old Gen - Attribute name: Valid  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=PS Old Gen - Attribute name: Name  - Attribute type: java.lang.String
+Bean name: java.lang:type=MemoryPool,name=PS Old Gen - Attribute name: Type  - Attribute type: java.lang.String
+Bean name: java.lang:type=MemoryPool,name=PS Eden Space - Attribute name: Usage  - Attribute type: javax.management.openmbean.CompositeData
+Bean name: java.lang:type=MemoryPool,name=PS Eden Space - Attribute name: PeakUsage  - Attribute type: javax.management.openmbean.CompositeData
+Bean name: java.lang:type=MemoryPool,name=PS Eden Space - Attribute name: UsageThreshold  - Attribute type: long
+Bean name: java.lang:type=MemoryPool,name=PS Eden Space - Attribute name: UsageThresholdExceeded  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=PS Eden Space - Attribute name: UsageThresholdCount  - Attribute type: long
+Bean name: java.lang:type=MemoryPool,name=PS Eden Space - Attribute name: UsageThresholdSupported  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=PS Eden Space - Attribute name: CollectionUsageThreshold  - Attribute type: long
+Bean name: java.lang:type=MemoryPool,name=PS Eden Space - Attribute name: CollectionUsageThresholdExceeded  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=PS Eden Space - Attribute name: CollectionUsageThresholdCount  - Attribute type: long
+Bean name: java.lang:type=MemoryPool,name=PS Eden Space - Attribute name: CollectionUsage  - Attribute type: javax.management.openmbean.CompositeData
+Bean name: java.lang:type=MemoryPool,name=PS Eden Space - Attribute name: CollectionUsageThresholdSupported  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=PS Eden Space - Attribute name: Valid  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=PS Eden Space - Attribute name: Name  - Attribute type: java.lang.String
+Bean name: java.lang:type=MemoryPool,name=PS Eden Space - Attribute name: Type  - Attribute type: java.lang.String
+Bean name: java.lang:type=MemoryPool,name=Compressed Class Space - Attribute name: Usage  - Attribute type: javax.management.openmbean.CompositeData
+Bean name: java.lang:type=MemoryPool,name=Compressed Class Space - Attribute name: PeakUsage  - Attribute type: javax.management.openmbean.CompositeData
+Bean name: java.lang:type=MemoryPool,name=Compressed Class Space - Attribute name: UsageThreshold  - Attribute type: long
+Bean name: java.lang:type=MemoryPool,name=Compressed Class Space - Attribute name: UsageThresholdExceeded  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=Compressed Class Space - Attribute name: UsageThresholdCount  - Attribute type: long
+Bean name: java.lang:type=MemoryPool,name=Compressed Class Space - Attribute name: UsageThresholdSupported  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=Compressed Class Space - Attribute name: CollectionUsageThreshold  - Attribute type: long
+Bean name: java.lang:type=MemoryPool,name=Compressed Class Space - Attribute name: CollectionUsageThresholdExceeded  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=Compressed Class Space - Attribute name: CollectionUsageThresholdCount  - Attribute type: long
+Bean name: java.lang:type=MemoryPool,name=Compressed Class Space - Attribute name: CollectionUsage  - Attribute type: javax.management.openmbean.CompositeData
+Bean name: java.lang:type=MemoryPool,name=Compressed Class Space - Attribute name: CollectionUsageThresholdSupported  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=Compressed Class Space - Attribute name: Valid  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=Compressed Class Space - Attribute name: Name  - Attribute type: java.lang.String
+Bean name: java.lang:type=MemoryPool,name=Compressed Class Space - Attribute name: Type  - Attribute type: java.lang.String
+Bean name: java.lang:type=MemoryPool,name=PS Survivor Space - Attribute name: Usage  - Attribute type: javax.management.openmbean.CompositeData
+Bean name: java.lang:type=MemoryPool,name=PS Survivor Space - Attribute name: PeakUsage  - Attribute type: javax.management.openmbean.CompositeData
+Bean name: java.lang:type=MemoryPool,name=PS Survivor Space - Attribute name: UsageThreshold  - Attribute type: long
+Bean name: java.lang:type=MemoryPool,name=PS Survivor Space - Attribute name: UsageThresholdExceeded  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=PS Survivor Space - Attribute name: UsageThresholdCount  - Attribute type: long
+Bean name: java.lang:type=MemoryPool,name=PS Survivor Space - Attribute name: UsageThresholdSupported  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=PS Survivor Space - Attribute name: CollectionUsageThreshold  - Attribute type: long
+Bean name: java.lang:type=MemoryPool,name=PS Survivor Space - Attribute name: CollectionUsageThresholdExceeded  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=PS Survivor Space - Attribute name: CollectionUsageThresholdCount  - Attribute type: long
+Bean name: java.lang:type=MemoryPool,name=PS Survivor Space - Attribute name: CollectionUsage  - Attribute type: javax.management.openmbean.CompositeData
+Bean name: java.lang:type=MemoryPool,name=PS Survivor Space - Attribute name: CollectionUsageThresholdSupported  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=PS Survivor Space - Attribute name: Valid  - Attribute type: boolean
+Bean name: java.lang:type=MemoryPool,name=PS Survivor Space - Attribute name: Name  - Attribute type: java.lang.String
+Bean name: java.lang:type=MemoryPool,name=PS Survivor Space - Attribute name: Type  - Attribute type: java.lang.String

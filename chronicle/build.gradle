@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+}
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'net.openhft', name: 'chronicle-core', version: '2.17.22'
+
+    implementation group: 'net.openhft', name: 'chronicle-values', version: '2.17.0'
+    implementation group: 'net.openhft', name: 'chronicle-queue', version: '5.17.19'
+    implementation group: 'net.openhft', name: 'chronicle-map', version: '3.17.4'
+    implementation group: 'net.openhft', name: 'chronicle-bytes', version: '2.17.35'
+    implementation group: 'net.openhft', name: 'chronicle-wire', version: '2.17.44'
+    implementation group: 'net.openhft', name: 'chronicle-network', version: '2.17.10'
+
+    implementation group: 'net.openhft', name: 'collections', version: '3.2.2'
+    implementation group: 'net.openhft', name: 'zero-allocation-hashing', version: '0.9'
+
+    implementation group: 'net.openhft', name: 'chronicle-logger-tools', version: '4.17.2'
+    implementation group: 'net.openhft', name: 'chronicle-ticker', version: '2.17.2'
+
+    implementation group: 'net.openhft', name: 'affinity', version: '3.1.11'
+    implementation group: 'net.openhft', name: 'compiler', version: '2.3.4'
+    implementation group: 'net.openhft', name: 'koloboke-api-jdk8', version: '0.6.8'
+
+
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+}

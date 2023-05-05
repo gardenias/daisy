@@ -1,0 +1,17 @@
+java.lang:type=Threading - Attribute name: ThreadCount  - Attribute type: int
+
+java.lang:type=OperatingSystem - Attribute name: OpenFileDescriptorCount  - Attribute type: long
+java.lang:type=OperatingSystem - Attribute name: SystemCpuLoad  - Attribute type: double
+java.lang:type=OperatingSystem - Attribute name: ProcessCpuLoad  - Attribute type: double
+
+java.lang:type=GarbageCollector,name=PS MarkSweep - Attribute name: CollectionCount  - Attribute type: long
+java.lang:type=GarbageCollector,name=PS MarkSweep - Attribute name: CollectionTime  - Attribute type: long
+java.lang:type=GarbageCollector,name=PS Scavenge - Attribute name: CollectionCount  - Attribute type: long
+java.lang:type=GarbageCollector,name=PS Scavenge - Attribute name: CollectionTime  - Attribute type: long
+
+java.lang:type=MemoryPool,name=PS Eden Space - Attribute name: Usage  - Attribute type: javax.management.openmbean.CompositeData
+java.lang:type=Memory - Attribute name: HeapMemoryUsage  - Attribute type: javax.management.openmbean.CompositeData
+java.lang:type=Memory - Attribute name: NonHeapMemoryUsage  - Attribute type: javax.management.openmbean.CompositeData
+
+java.lang:type=MemoryPool,name=PS Old Gen - Attribute name: Usage  - Attribute type: javax.management.openmbean.CompositeData
+java.lang:type=MemoryPool,name=PS Survivor Space - Attribute name: Usage  - Attribute type: javax.management.openmbean.CompositeData

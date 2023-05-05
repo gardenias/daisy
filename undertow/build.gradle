@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+dependencies {
+    implementation("${springframeworkGroup}.boot:spring-boot-starter-web:${springframeworkVersion}") {
+        exclude module:'spring-boot-starter-tomcat'
+    }
+
+    implementation group: "${springframeworkGroup}.boot", name: 'spring-boot-starter-undertow',
+            version:"${springframeworkVersion}"
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

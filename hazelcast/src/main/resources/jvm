@@ -1,0 +1,22 @@
+App | Instance jmx-172.18.1.63-10090 is sending 20 metrics to the metrics reporter during collection #1
+ConsoleReporter | jvm.thread_count[instance:jmx-172.18.1.63-10090,jmx_domain:java.lang,type:Threading,env:performance,hazelcast:member] - 1552443124 = 70.0
+ConsoleReporter | jvm.os.open_file_descriptors[instance:jmx-172.18.1.63-10090,jmx_domain:java.lang,type:OperatingSystem,env:performance,hazelcast:member] - 1552443124 = 75.0
+ConsoleReporter | jvm.cpu_load.system[instance:jmx-172.18.1.63-10090,jmx_domain:java.lang,type:OperatingSystem,env:performance,hazelcast:member] - 1552443124 = 0.0
+ConsoleReporter | jvm.cpu_load.process[instance:jmx-172.18.1.63-10090,jmx_domain:java.lang,type:OperatingSystem,env:performance,hazelcast:member] - 1552443124 = 0.0
+ConsoleReporter | jvm.loaded_classes[instance:jmx-172.18.1.63-10090,jmx_domain:java.lang,type:ClassLoading,env:performance,hazelcast:member] - 1552443124 = 7170.0
+ConsoleReporter | jvm.gc.cms.count[instance:jmx-172.18.1.63-10090,jmx_domain:java.lang,type:GarbageCollector,name:PS MarkSweep,env:performance,hazelcast:member] - 1552443124 = 1.0
+ConsoleReporter | jvm.gc.parnew.time[instance:jmx-172.18.1.63-10090,jmx_domain:java.lang,type:GarbageCollector,name:PS MarkSweep,env:performance,hazelcast:member] - 1552443124 = 26.0
+ConsoleReporter | jvm.gc.old_gen_size[instance:jmx-172.18.1.63-10090,jmx_domain:java.lang,type:MemoryPool,name:PS Old Gen,env:performance,hazelcast:member] - 1552443124 = 1.1300864E7
+ConsoleReporter | jvm.gc.cms.count[instance:jmx-172.18.1.63-10090,jmx_domain:java.lang,type:GarbageCollector,name:PS Scavenge,env:performance,hazelcast:member] - 1552443124 = 8.0
+ConsoleReporter | jvm.gc.parnew.time[instance:jmx-172.18.1.63-10090,jmx_domain:java.lang,type:GarbageCollector,name:PS Scavenge,env:performance,hazelcast:member] - 1552443124 = 97.0
+ConsoleReporter | jvm.gc.eden_size[instance:jmx-172.18.1.63-10090,jmx_domain:java.lang,type:MemoryPool,name:PS Eden Space,env:performance,hazelcast:member] - 1552443124 = 5.85845672E8
+ConsoleReporter | jvm.heap_memory_init[instance:jmx-172.18.1.63-10090,jmx_domain:java.lang,type:Memory,env:performance,hazelcast:member] - 1552443124 = 2.147483648E9
+ConsoleReporter | jvm.heap_memory_committed[instance:jmx-172.18.1.63-10090,jmx_domain:java.lang,type:Memory,env:performance,hazelcast:member] - 1552443124 = 2.343043072E9
+ConsoleReporter | jvm.heap_memory_max[instance:jmx-172.18.1.63-10090,jmx_domain:java.lang,type:Memory,env:performance,hazelcast:member] - 1552443124 = 7.635730432E9
+ConsoleReporter | jvm.heap_memory[instance:jmx-172.18.1.63-10090,jmx_domain:java.lang,type:Memory,env:performance,hazelcast:member] - 1552443124 = 6.03079928E8
+ConsoleReporter | jvm.non_heap_memory_init[instance:jmx-172.18.1.63-10090,jmx_domain:java.lang,type:Memory,env:performance,hazelcast:member] - 1552443124 = 2555904.0
+ConsoleReporter | jvm.non_heap_memory_committed[instance:jmx-172.18.1.63-10090,jmx_domain:java.lang,type:Memory,env:performance,hazelcast:member] - 1552443124 = 5.6950784E7
+ConsoleReporter | jvm.non_heap_memory_max[instance:jmx-172.18.1.63-10090,jmx_domain:java.lang,type:Memory,env:performance,hazelcast:member] - 1552443124 = -1.0
+ConsoleReporter | jvm.non_heap_memory[instance:jmx-172.18.1.63-10090,jmx_domain:java.lang,type:Memory,env:performance,hazelcast:member] - 1552443124 = 5.5435256E7
+ConsoleReporter | jvm.gc.survivor_size[instance:jmx-172.18.1.63-10090,jmx_domain:java.lang,type:MemoryPool,name:PS Survivor Space,env:performance,hazelcast:member] - 1552443124 = 5933392.0
+ConsoleReporter | jmx[jmx_server:172.18.1.63,env:performance,hazelcast:member,instance:jmx-172.18.1.63-10090] - 1552443124 = OK

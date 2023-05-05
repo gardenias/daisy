@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+}
+
+dependencies {
+    implementation(group: "${springframeworkGroup}.cloud",
+            name: 'spring-cloud-config-server',
+            version: '2.1.3.RELEASE') {
+        exclude group: "${springframeworkGroup}.boot"
+    }
+    implementation(group: "${springframeworkGroup}.boot",
+            name: 'spring-boot-starter-web',
+            version: "${springframeworkVersion}")
+    implementation(group: "${springframeworkGroup}.boot",
+            name: 'spring-boot-starter',
+            version: "${springframeworkVersion}") {
+        force = true
+        exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
+    }
+
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: "${springframeworkVersion}"
+    implementation group: "${springframeworkGroup}.boot", name: 'spring-boot-starter-aop', version: "${springframeworkVersion}"
+
+    implementation(group: "${springframeworkGroup}.retry", name: 'spring-retry', version: '1.2.4.RELEASE')
+
+    implementation group: 'org.projectlombok', name: 'lombok', version: '1.18.8'
+
+    testImplementation group: "${springframeworkGroup}.boot", name: 'spring-boot-starter-test', version: "${springframeworkVersion}"
+}

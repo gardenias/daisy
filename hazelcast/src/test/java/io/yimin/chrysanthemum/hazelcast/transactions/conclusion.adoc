@@ -1,0 +1,18 @@
+= Hazelcast Transactions Testing
+
+== TestCases
+
+1. Remote task throw a exception
+** remote task open a transaction with 10 seconds timeout config
+** task getForUpdate with a map key
+** task sleep 5 seconds and then throw a runtime exception
+** client future.get()
+** client open a client transaction and getForUpdate with a map key
+
+
+1. Remote task throw a exception, client use timeout get
+** remote task open a transaction with 10 seconds timeout config
+** task getForUpdate with a map key
+** task sleep 5 seconds and then throw a runtime exception
+** client future.get(5,SECONDS)
+** client open a client transaction and getForUpdate with a map key
